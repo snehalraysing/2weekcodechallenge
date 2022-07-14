@@ -10,9 +10,13 @@ def check_alpha():
         elif(alpha == 'A' or alpha == 'E'or alpha == 'I' or alpha == 'O' or alpha == 'U'):
             print(alpha, "is a Vowel.")
 
+        elif(alpha == '0' or alpha == '1'):
+            print("Thankyou Program Exit.")
+            break
+
         else:
             print(alpha , "is a Consonant.")
 
-        
+
 
 check_alpha()
